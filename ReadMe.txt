@@ -2,7 +2,10 @@
     DYNAMIC LINK LIBRARY : DimBlessANN Project Overview
 ========================================================================
 
-AppWizard has created this DimBlessANN DLL for you.  
+DimBlessANN.dll is a library that implements an Approximate Nearest Neighbour (ANN)
+search algorithm optimized for efficient performance in high-dimensional spaces. 
+Unlike traditional methods that struggle in such contexts, this algorithm leverages
+the beneficial properties of high dimensions to deliver fast and accurate results.  
 
 This file contains a summary of what you will find in each of the files that
 make up your DimBlessANN application.
@@ -32,7 +35,13 @@ AssemblyInfo.cpp
 /////////////////////////////////////////////////////////////////////////////
 Other notes:
 
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
+Nearest Neighbour Search is a technique used to find the closest point to a given point in
+a multidimensional space. This technique is crucial in various applications such as product
+recommendation, pattern recognition, and information retrieval.
+
+DimBlessANN.dll implements an approximate method to perform this search efficiently, 
+particularly in high-dimensional spaces where exact methods can be computationally prohibitive.
+The algorithm is designed to exploit the favorable characteristics of high dimensions, offering
+superior performance in complex scenarios.
 
 /////////////////////////////////////////////////////////////////////////////
